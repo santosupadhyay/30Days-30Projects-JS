@@ -4,7 +4,7 @@ const lengthPsw = 12;
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const lowerCase = "abcdefghijklmnopqrstuvwxyz"
-const numbers = "0123456789"
+const numbers = "0123456789" 
 const specialChar = "!@#$%^&*()_+=-?/><"
 
 const allChars = upperCase + lowerCase + numbers + specialChar;

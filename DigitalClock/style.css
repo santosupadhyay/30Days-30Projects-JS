@@ -1,0 +1,45 @@
+html{
+        width: 100%;
+}
+body{
+        box-sizing: border-box;
+        font-size: 15px;
+        display: flex;
+        height: 41vh;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #98ec6e;
+        margin: auto;
+}
+.clock-part {
+        width: 30%;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: baseline;
+}
+.hours-part, .minutes-part, .seconds-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #2972f0;
+        padding: 1rem;
+        gap: 1rem;
+}
+.hours, .minutes, .seconds {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: white;
+}
+.text {
+        border-top: 3px solid rgb(13, 13, 13);
+        text-transform: uppercase;
+        font-size: .6rem;
+        font-weight: 600;
+        color: white;
+        padding: .3rem;
+}
